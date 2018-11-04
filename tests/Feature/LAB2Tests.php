@@ -9,9 +9,8 @@ use Illuminate\Foundation\Testing\DatabaseMigrations;
 class LAB2Test extends TestCase
 {
     use DatabaseMigrations;
-    /**
-     * @test 1
-     */
+
+    /** @test 1*/
     public function test_if_threads_webpage_exists()
     {
         $response = $this->get('/threads');
@@ -27,6 +26,7 @@ class LAB2Test extends TestCase
         $response = $this->get('/threads');
         $response->assertSee($thread->title);
     }
+    
     /** @test 3 */
      public function a_user_can_read_a_single_thread()
     {
