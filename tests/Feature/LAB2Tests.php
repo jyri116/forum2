@@ -3,11 +3,12 @@
 namespace Tests\Feature;
 
 use Tests\TestCase;
-use Illuminate\Foundation\Testing\RefreshDatabase;
+use Illuminate\Foundation\Testing\DatabaseMigrations;
+/** use Illuminate\Foundation\Testing\RefreshDatabase; */
 
 class LAB2Test extends TestCase
 {
-    
+    use DatabaseMigrations;
     /**
      * @test 1
      */
