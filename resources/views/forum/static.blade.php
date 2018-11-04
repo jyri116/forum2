@@ -4,6 +4,6 @@
 	<title>static webpage</title>
 </head>
 <body>
-	<h1>Static Threads WebPage</h1>
+	<h2>Static Threads WebPage</h2>
 </body>
 </html>
